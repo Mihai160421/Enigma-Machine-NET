@@ -34,7 +34,7 @@
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1698, 1257);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Enigma Machine";
