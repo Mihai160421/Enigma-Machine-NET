@@ -83,6 +83,7 @@
             button52 = new Button();
             Plugboard_label = new Label();
             button53 = new Button();
+            PlugboardResult_textbox = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -632,11 +633,20 @@
             button53.UseVisualStyleBackColor = true;
             button53.Click += PlugboardClear_Click;
             // 
+            // PlugboardResult_textbox
+            // 
+            PlugboardResult_textbox.Enabled = false;
+            PlugboardResult_textbox.Location = new Point(146, 1574);
+            PlugboardResult_textbox.Name = "PlugboardResult_textbox";
+            PlugboardResult_textbox.Size = new Size(1471, 47);
+            PlugboardResult_textbox.TabIndex = 55;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1720, 1613);
+            ClientSize = new Size(1734, 1795);
+            Controls.Add(PlugboardResult_textbox);
             Controls.Add(button53);
             Controls.Add(Plugboard_label);
             Controls.Add(button27);
@@ -695,7 +705,6 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Enigma Machine";
-            Click += Plugboard_Click;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -757,5 +766,6 @@
         private Button button52;
         private Label Plugboard_label;
         private Button button53;
+        private TextBox PlugboardResult_textbox;
     }
 }

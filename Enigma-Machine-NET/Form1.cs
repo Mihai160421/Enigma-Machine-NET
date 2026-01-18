@@ -6,7 +6,9 @@ namespace Enigma_Machine_NET
     {
         private bool PlugboardMatching = false;
         private Color PlugboardCurrentMatchingColor = Color.White;
-        private List<Button> ButtonsMatched = new List<Button>();
+        private char CurrentMatchingCharacter = '\0';
+        private Plugboard plugboard = new Plugboard();
+
 
         public Form1()
         {
@@ -19,6 +21,10 @@ namespace Enigma_Machine_NET
             char litera = btn.Text[0];
 
             this.keyboard_textbox.Text += litera ;
+
+            litera = plugboard.Process(litera);
+            PlugboardResult_textbox.Text += litera ;
+
         }
 
 
@@ -30,8 +36,10 @@ namespace Enigma_Machine_NET
             {
                 PlugboardMatching = true;
                 /* Start Matching */
-                // Generate Random color
 
+                CurrentMatchingCharacter = btn.Text[0];
+                
+                // Generate Random color
                 Random rnd = new Random();
                 PlugboardCurrentMatchingColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
                 btn.BackColor = PlugboardCurrentMatchingColor;
@@ -40,21 +48,16 @@ namespace Enigma_Machine_NET
             {
                 // Apply matching color
                 btn.BackColor = PlugboardCurrentMatchingColor;
+
+                plugboard.AddConnection(CurrentMatchingCharacter, btn.Text[0]);
+
                 PlugboardMatching = false;
             }
-
-            ButtonsMatched.Append(btn);
         }
 
         private void PlugboardClear_Click(object? sender, EventArgs e)
         {
-            /* NOT WORKING */
-            foreach (Button b in ButtonsMatched)
-            {
-                b.BackColor = Color.Gray;
-            }
-
-            ButtonsMatched.Clear();
+            plugboard.ClearAll();
         }
     }
 }
