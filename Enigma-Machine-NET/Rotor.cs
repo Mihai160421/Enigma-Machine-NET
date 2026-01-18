@@ -7,21 +7,26 @@ namespace Enigma_Machine_NET
     public class Rotor
     {
         private string _wiring;
-        private char _notch; 
         public int Position { get; private set; }
 
-        public Rotor(string wiring, char notch)
+        public Rotor(string wiring)
         {
             _wiring = wiring;
-            _notch = notch;
             Position = 0;
         }
 
         public bool Step()
         {
-            bool atNotch = (char)('A' + Position) == _notch;
-            Position = (Position + 1) % 26;
+            Position += 1;
+            bool atNotch = Position > 25;
+            Position %= 26;
+
             return atNotch;
+        }
+
+        public void SetPosition(int position)
+        {
+            Position = position;
         }
 
         public int Forward(int input)
