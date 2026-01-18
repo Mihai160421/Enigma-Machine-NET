@@ -26,7 +26,7 @@ namespace Enigma_Machine_NET
 
         public void SetPosition(int position)
         {
-            Position = position;
+            Position = position % 26;
         }
 
         public int Forward(int input)

@@ -112,14 +112,24 @@ namespace Enigma_Machine_NET
 
 
             semnal = rotorRight.Forward(semnal);
+            R1LResultF.Text = "" + (char)('A' + semnal);
+
             semnal = rotorMiddle.Forward(semnal);
+            R2LResultF.Text = "" + (char)('A' + semnal);
+
             semnal = rotorLeft.Forward(semnal);
+            R3LResultF.Text = "" + (char)('A' + semnal);
 
             semnal = reflectorB[semnal] - 'A';
 
             semnal = rotorLeft.Backward(semnal);
+            R3LResultB.Text = "" + (char)('A' + semnal);
+
             semnal = rotorMiddle.Backward(semnal);
+            R2LResultB.Text = "" + (char)('A' + semnal);
+
             semnal = rotorRight.Backward(semnal);
+            R1LResultB.Text = "" + (char)('A' + semnal);
 
             return (char)('A' + semnal);
         }
@@ -181,6 +191,15 @@ namespace Enigma_Machine_NET
             keyboard_textbox.Text = "";
             encrypted_text.Text = "";
             PlugboardResult_textbox.Text = "";
+
+            R1LResultF.Text = "_";
+            R2LResultF.Text = "_";
+            R3LResultF.Text = "_";
+            
+            R1LResultB.Text = "_";
+            R2LResultB.Text = "_";
+            R3LResultB.Text = "_";
+
 
             PlugboardClear_Click(sender, e);
         }

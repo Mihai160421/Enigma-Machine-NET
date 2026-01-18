@@ -95,6 +95,12 @@
             ResetButton = new Button();
             label4 = new Label();
             label5 = new Label();
+            R1LResultF = new Label();
+            R2LResultF = new Label();
+            R3LResultF = new Label();
+            R3LResultB = new Label();
+            R2LResultB = new Label();
+            R1LResultB = new Label();
             SuspendLayout();
             // 
             // button1
@@ -770,11 +776,71 @@
             label5.TabIndex = 69;
             label5.Text = "Output";
             // 
+            // R1LResultF
+            // 
+            R1LResultF.AutoSize = true;
+            R1LResultF.Location = new Point(695, 460);
+            R1LResultF.Name = "R1LResultF";
+            R1LResultF.Size = new Size(30, 41);
+            R1LResultF.TabIndex = 70;
+            R1LResultF.Text = "_";
+            // 
+            // R2LResultF
+            // 
+            R2LResultF.AutoSize = true;
+            R2LResultF.Location = new Point(417, 460);
+            R2LResultF.Name = "R2LResultF";
+            R2LResultF.Size = new Size(30, 41);
+            R2LResultF.TabIndex = 71;
+            R2LResultF.Text = "_";
+            // 
+            // R3LResultF
+            // 
+            R3LResultF.AutoSize = true;
+            R3LResultF.Location = new Point(130, 460);
+            R3LResultF.Name = "R3LResultF";
+            R3LResultF.Size = new Size(30, 41);
+            R3LResultF.TabIndex = 72;
+            R3LResultF.Text = "_";
+            // 
+            // R3LResultB
+            // 
+            R3LResultB.AutoSize = true;
+            R3LResultB.Location = new Point(130, 531);
+            R3LResultB.Name = "R3LResultB";
+            R3LResultB.Size = new Size(30, 41);
+            R3LResultB.TabIndex = 75;
+            R3LResultB.Text = "_";
+            // 
+            // R2LResultB
+            // 
+            R2LResultB.AutoSize = true;
+            R2LResultB.Location = new Point(414, 531);
+            R2LResultB.Name = "R2LResultB";
+            R2LResultB.Size = new Size(30, 41);
+            R2LResultB.TabIndex = 74;
+            R2LResultB.Text = "_";
+            // 
+            // R1LResultB
+            // 
+            R1LResultB.AutoSize = true;
+            R1LResultB.Location = new Point(695, 531);
+            R1LResultB.Name = "R1LResultB";
+            R1LResultB.Size = new Size(30, 41);
+            R1LResultB.TabIndex = 73;
+            R1LResultB.Text = "_";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1742, 2104);
+            Controls.Add(R3LResultB);
+            Controls.Add(R2LResultB);
+            Controls.Add(R1LResultB);
+            Controls.Add(R3LResultF);
+            Controls.Add(R2LResultF);
+            Controls.Add(R1LResultF);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(ResetButton);
@@ -920,5 +986,11 @@
         private Button ResetButton;
         private Label label4;
         private Label label5;
+        private Label R1LResultF;
+        private Label R2LResultF;
+        private Label R3LResultF;
+        private Label R3LResultB;
+        private Label R2LResultB;
+        private Label R1LResultB;
     }
 }
