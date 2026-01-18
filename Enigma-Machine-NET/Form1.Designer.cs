@@ -55,6 +55,34 @@
             button25 = new Button();
             button26 = new Button();
             keyboard_textbox = new TextBox();
+            button27 = new Button();
+            button28 = new Button();
+            button29 = new Button();
+            button30 = new Button();
+            button31 = new Button();
+            button32 = new Button();
+            button33 = new Button();
+            button34 = new Button();
+            button35 = new Button();
+            button36 = new Button();
+            button37 = new Button();
+            button38 = new Button();
+            button39 = new Button();
+            button40 = new Button();
+            button41 = new Button();
+            button42 = new Button();
+            button43 = new Button();
+            button44 = new Button();
+            button45 = new Button();
+            button46 = new Button();
+            button47 = new Button();
+            button48 = new Button();
+            button49 = new Button();
+            button50 = new Button();
+            button51 = new Button();
+            button52 = new Button();
+            Plugboard_label = new Label();
+            button53 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -324,11 +352,319 @@
             keyboard_textbox.Size = new Size(1471, 47);
             keyboard_textbox.TabIndex = 26;
             // 
+            // button27
+            // 
+            button27.Location = new Point(1468, 1216);
+            button27.Name = "button27";
+            button27.Size = new Size(160, 160);
+            button27.TabIndex = 52;
+            button27.Text = "L";
+            button27.UseVisualStyleBackColor = true;
+            button27.Click += Plugboard_Click;
+            // 
+            // button28
+            // 
+            button28.Location = new Point(1302, 1382);
+            button28.Name = "button28";
+            button28.Size = new Size(160, 160);
+            button28.TabIndex = 51;
+            button28.Text = "M";
+            button28.UseVisualStyleBackColor = true;
+            button28.Click += Plugboard_Click;
+            // 
+            // button29
+            // 
+            button29.Location = new Point(1136, 1382);
+            button29.Name = "button29";
+            button29.Size = new Size(160, 160);
+            button29.TabIndex = 50;
+            button29.Text = "N";
+            button29.UseVisualStyleBackColor = true;
+            button29.Click += Plugboard_Click;
+            // 
+            // button30
+            // 
+            button30.Location = new Point(970, 1382);
+            button30.Name = "button30";
+            button30.Size = new Size(160, 160);
+            button30.TabIndex = 49;
+            button30.Text = "B";
+            button30.UseVisualStyleBackColor = true;
+            button30.Click += Plugboard_Click;
+            // 
+            // button31
+            // 
+            button31.Location = new Point(804, 1382);
+            button31.Name = "button31";
+            button31.Size = new Size(160, 160);
+            button31.TabIndex = 48;
+            button31.Text = "V";
+            button31.UseVisualStyleBackColor = true;
+            button31.Click += Plugboard_Click;
+            // 
+            // button32
+            // 
+            button32.Location = new Point(638, 1382);
+            button32.Name = "button32";
+            button32.Size = new Size(160, 160);
+            button32.TabIndex = 47;
+            button32.Text = "C";
+            button32.UseVisualStyleBackColor = true;
+            button32.Click += Plugboard_Click;
+            // 
+            // button33
+            // 
+            button33.Location = new Point(472, 1382);
+            button33.Name = "button33";
+            button33.Size = new Size(160, 160);
+            button33.TabIndex = 46;
+            button33.Text = "X";
+            button33.UseVisualStyleBackColor = true;
+            button33.Click += Plugboard_Click;
+            // 
+            // button34
+            // 
+            button34.Location = new Point(306, 1382);
+            button34.Name = "button34";
+            button34.Size = new Size(160, 160);
+            button34.TabIndex = 45;
+            button34.Text = "Y";
+            button34.UseVisualStyleBackColor = true;
+            button34.Click += Plugboard_Click;
+            // 
+            // button35
+            // 
+            button35.Location = new Point(140, 1382);
+            button35.Name = "button35";
+            button35.Size = new Size(160, 160);
+            button35.TabIndex = 44;
+            button35.Text = "P";
+            button35.UseVisualStyleBackColor = true;
+            button35.Click += Plugboard_Click;
+            // 
+            // button36
+            // 
+            button36.Location = new Point(1302, 1216);
+            button36.Name = "button36";
+            button36.Size = new Size(160, 160);
+            button36.TabIndex = 43;
+            button36.Text = "K";
+            button36.UseVisualStyleBackColor = true;
+            button36.Click += Plugboard_Click;
+            // 
+            // button37
+            // 
+            button37.Location = new Point(1136, 1216);
+            button37.Name = "button37";
+            button37.Size = new Size(160, 160);
+            button37.TabIndex = 42;
+            button37.Text = "J";
+            button37.UseVisualStyleBackColor = true;
+            button37.Click += Plugboard_Click;
+            // 
+            // button38
+            // 
+            button38.Location = new Point(970, 1216);
+            button38.Name = "button38";
+            button38.Size = new Size(160, 160);
+            button38.TabIndex = 41;
+            button38.Text = "H";
+            button38.UseVisualStyleBackColor = true;
+            button38.Click += Plugboard_Click;
+            // 
+            // button39
+            // 
+            button39.Location = new Point(804, 1216);
+            button39.Name = "button39";
+            button39.Size = new Size(160, 160);
+            button39.TabIndex = 40;
+            button39.Text = "G";
+            button39.UseVisualStyleBackColor = true;
+            button39.Click += Plugboard_Click;
+            // 
+            // button40
+            // 
+            button40.Location = new Point(638, 1216);
+            button40.Name = "button40";
+            button40.Size = new Size(160, 160);
+            button40.TabIndex = 39;
+            button40.Text = "F";
+            button40.UseVisualStyleBackColor = true;
+            button40.Click += Plugboard_Click;
+            // 
+            // button41
+            // 
+            button41.Location = new Point(472, 1216);
+            button41.Name = "button41";
+            button41.Size = new Size(160, 160);
+            button41.TabIndex = 38;
+            button41.Text = "D";
+            button41.UseVisualStyleBackColor = true;
+            button41.Click += Plugboard_Click;
+            // 
+            // button42
+            // 
+            button42.Location = new Point(306, 1216);
+            button42.Name = "button42";
+            button42.Size = new Size(160, 160);
+            button42.TabIndex = 37;
+            button42.Text = "S";
+            button42.UseVisualStyleBackColor = true;
+            button42.Click += Plugboard_Click;
+            // 
+            // button43
+            // 
+            button43.Location = new Point(140, 1216);
+            button43.Name = "button43";
+            button43.Size = new Size(160, 160);
+            button43.TabIndex = 36;
+            button43.Text = "A";
+            button43.UseVisualStyleBackColor = true;
+            button43.Click += Plugboard_Click;
+            // 
+            // button44
+            // 
+            button44.Location = new Point(1468, 1050);
+            button44.Name = "button44";
+            button44.Size = new Size(160, 160);
+            button44.TabIndex = 35;
+            button44.Text = "O";
+            button44.UseVisualStyleBackColor = true;
+            button44.Click += Plugboard_Click;
+            // 
+            // button45
+            // 
+            button45.Location = new Point(1302, 1050);
+            button45.Name = "button45";
+            button45.Size = new Size(160, 160);
+            button45.TabIndex = 34;
+            button45.Text = "I";
+            button45.UseVisualStyleBackColor = true;
+            button45.Click += Plugboard_Click;
+            // 
+            // button46
+            // 
+            button46.Location = new Point(1136, 1050);
+            button46.Name = "button46";
+            button46.Size = new Size(160, 160);
+            button46.TabIndex = 33;
+            button46.Text = "U";
+            button46.UseVisualStyleBackColor = true;
+            button46.Click += Plugboard_Click;
+            // 
+            // button47
+            // 
+            button47.Location = new Point(970, 1050);
+            button47.Name = "button47";
+            button47.Size = new Size(160, 160);
+            button47.TabIndex = 32;
+            button47.Text = "Z";
+            button47.UseVisualStyleBackColor = true;
+            button47.Click += Plugboard_Click;
+            // 
+            // button48
+            // 
+            button48.Location = new Point(804, 1050);
+            button48.Name = "button48";
+            button48.Size = new Size(160, 160);
+            button48.TabIndex = 31;
+            button48.Text = "T";
+            button48.UseVisualStyleBackColor = true;
+            button48.Click += Plugboard_Click;
+            // 
+            // button49
+            // 
+            button49.Location = new Point(638, 1050);
+            button49.Name = "button49";
+            button49.Size = new Size(160, 160);
+            button49.TabIndex = 30;
+            button49.Text = "R";
+            button49.UseVisualStyleBackColor = true;
+            button49.Click += Plugboard_Click;
+            // 
+            // button50
+            // 
+            button50.Location = new Point(472, 1050);
+            button50.Name = "button50";
+            button50.Size = new Size(160, 160);
+            button50.TabIndex = 29;
+            button50.Text = "E";
+            button50.UseVisualStyleBackColor = true;
+            button50.Click += Plugboard_Click;
+            // 
+            // button51
+            // 
+            button51.Location = new Point(306, 1050);
+            button51.Name = "button51";
+            button51.Size = new Size(160, 160);
+            button51.TabIndex = 28;
+            button51.Text = "W";
+            button51.UseVisualStyleBackColor = true;
+            button51.Click += Plugboard_Click;
+            // 
+            // button52
+            // 
+            button52.Location = new Point(140, 1050);
+            button52.Name = "button52";
+            button52.Size = new Size(160, 160);
+            button52.TabIndex = 27;
+            button52.Text = "Q";
+            button52.UseVisualStyleBackColor = true;
+            button52.Click += Plugboard_Click;
+            // 
+            // Plugboard_label
+            // 
+            Plugboard_label.AutoSize = true;
+            Plugboard_label.Location = new Point(146, 970);
+            Plugboard_label.Name = "Plugboard_label";
+            Plugboard_label.Size = new Size(156, 41);
+            Plugboard_label.TabIndex = 53;
+            Plugboard_label.Text = "Plugboard";
+            Plugboard_label.Click += Plugboard_Click;
+            // 
+            // button53
+            // 
+            button53.Location = new Point(1468, 1382);
+            button53.Name = "button53";
+            button53.Size = new Size(160, 160);
+            button53.TabIndex = 54;
+            button53.Text = "Clear";
+            button53.UseVisualStyleBackColor = true;
+            button53.Click += PlugboardClear_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(2671, 2221);
+            ClientSize = new Size(1720, 1613);
+            Controls.Add(button53);
+            Controls.Add(Plugboard_label);
+            Controls.Add(button27);
+            Controls.Add(button28);
+            Controls.Add(button29);
+            Controls.Add(button30);
+            Controls.Add(button31);
+            Controls.Add(button32);
+            Controls.Add(button33);
+            Controls.Add(button34);
+            Controls.Add(button35);
+            Controls.Add(button36);
+            Controls.Add(button37);
+            Controls.Add(button38);
+            Controls.Add(button39);
+            Controls.Add(button40);
+            Controls.Add(button41);
+            Controls.Add(button42);
+            Controls.Add(button43);
+            Controls.Add(button44);
+            Controls.Add(button45);
+            Controls.Add(button46);
+            Controls.Add(button47);
+            Controls.Add(button48);
+            Controls.Add(button49);
+            Controls.Add(button50);
+            Controls.Add(button51);
+            Controls.Add(button52);
             Controls.Add(keyboard_textbox);
             Controls.Add(button10);
             Controls.Add(button19);
@@ -359,6 +695,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Enigma Machine";
+            Click += Plugboard_Click;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -392,5 +729,33 @@
         private Button button25;
         private Button button26;
         private TextBox keyboard_textbox;
+        private Button button27;
+        private Button button28;
+        private Button button29;
+        private Button button30;
+        private Button button31;
+        private Button button32;
+        private Button button33;
+        private Button button34;
+        private Button button35;
+        private Button button36;
+        private Button button37;
+        private Button button38;
+        private Button button39;
+        private Button button40;
+        private Button button41;
+        private Button button42;
+        private Button button43;
+        private Button button44;
+        private Button button45;
+        private Button button46;
+        private Button button47;
+        private Button button48;
+        private Button button49;
+        private Button button50;
+        private Button button51;
+        private Button button52;
+        private Label Plugboard_label;
+        private Button button53;
     }
 }
